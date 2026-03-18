@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speisekarte – Das Landhähnchenhaus</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+<header class="main-header">
+    <div class="container header-content">
+        <a href="index.html" class="logo-area">
+            <span class="site-title">Das Landhähnchenhaus</span>
+        </a>
+
+        <nav class="main-nav">
+            <button class="menu-btn">☰</button>
+
+            <ul class="dropdown-menu">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="speisekarte.html" class="active">Speisekarte</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="menu-hero" style="background-image: url('grill_haenchen.png');">
+    <div class="menu-hero-overlay"></div>
+
+    <div class="menu-hero-inner">
+        <div class="menu-hero-topnav">
+            <a href="index.html" class="menu-hero-pill">Startseite</a>
+            <a href="impressum.html" class="menu-hero-link">Impressum</a>
+            <a href="kontakt.html" class="menu-hero-link">Kontaktdaten</a>
+            <li><a href="https://maps.apple.com/place?auid=17267431061081654272&address=Viborg%2C+8800+Viborg%2C+Dänemark&coordinate=56.452870%2C9.406362&name=Viborg&lsp=7618" target="_blank"> 📍</a></li>
+
+        </div>
+
+        <div class="menu-hero-center">
+            <h1>Unsere Speisekarte</h1>
+        </div>
+    </div>
+</section>
+
+<main class="menu-main container">
+
+    <!-- Tabs -->
+    <nav class="category-tabs">
+        <button class="menu-tab active" data-target="gerichte">Gerichte</button>
+        <button class="menu-tab" data-target="menues">Menüs</button>
+        <button class="menu-tab" data-target="beilagen">Beilagen</button>
+        <button class="menu-tab" data-target="dips">Dips</button>
+        <button class="menu-tab" data-target="salate">Salate</button>
+        <button class="menu-tab" data-target="getraenke">Getränke</button>
+    </nav>
+
+    <!-- Kategorien -->
+    <section id="gerichte" class="menu-category active">
+        <h2>Gerichte</h2>
+
+        <div class="menu-item"><span>Halbes Land-Hähnchen</span><span class="price">6,49 €</span></div>
+
+        <div class="menu-item"><span>3 Halbe Land-Hähnchen</span><span class="price">17,99 €</span></div>
+
+        <div class="menu-item"><span>1 Land-Hähnchenschenkel</span><span class="price">3,99 €</span></div>
+
+        <div class="menu-item"><span>3 Land-Hähnchenschenkel</span><span class="price">9,99 €</span></div>
+
+        <div class="menu-item"><span>6 Chicken Nuggets</span><span class="price">5,99 €</span></div>
+
+        <div class="menu-item"><span>12 Chicken Nuggets</span><span class="price">8,99 €</span></div>
+
+        <div class="menu-item"><span>6 Wings Spicy & Hot</span><span class="price">5,99 €</span></div>
+
+        <div class="menu-item"><span>12 Wings Spicy & Hot</span><span class="price">8,99 €</span></div>
+
+        <div class="menu-item"><span>18 Wings Spicy & Hot</span><span class="price">13,99 €</span></div>
+
+        <div class="menu-item"><span>Chicken Box (Nuggets, Wings, Filet Fingers)</span><span class="price">9,99 €</span></div>
+
+        <div class="menu-item"><span>Chicken Schnitzel „Wiener Art“</span><span class="price">4,99 €</span></div>
+
+        <div class="menu-item"><span>4 Hähnchenfilets</span><span class="price">6,99 €</span></div>
+
+        <div class="menu-item"><span>6 Hähnchenfilets</span><span class="price">8,99 €</span></div>
+
+        <div class="menu-item"><span>XL Curry Geflügelwurst</span><span class="price">4,99 €</span></div>
+
+        <div class="menu-item"><span>Frikadellenbrötchen</span><span class="price">3,99 €</span></div>
+
+        <div class="menu-item"><span>Schnitzelbrötchen</span><span class="price">5,49 €</span></div>
+    </section>
+
+    <section id="menues" class="menu-category">
+        <h2>Menüs</h2>
+
+        <div class="menu-item"><span>Halbes Land-Hähnchen Menü</span><span class="price">9,99 €</span></div>
+
+        <div class="menu-item"><span>1 Hähnchenschenkel Menü</span><span class="price">6,99 €</span></div>
+
+        <div class="menu-item"><span>3 Hähnchenfilets Menü</span><span class="price">7,99 €</span></div>
+
+        <div class="menu-item"><span>6 Nuggets Menü</span><span class="price">7,99 €</span></div>
+
+        <div class="menu-item"><span>6 Wings Menü</span><span class="price">7,99 €</span></div>
+
+        <div class="menu-item"><span>XL Currywurst Menü</span><span class="price">7,99 €</span></div>
+
+        <div class="menu-item"><span>Schnitzel Menü</span><span class="price">7,99 €</span></div>
+
+        <div class="menu-item"><span>Chicken Box Menü</span><span class="price">11,99 €</span></div>
+
+        <div class="menu-item"><span>XL Land-Chickenbox</span><span class="price">14,99 €</span></div>
+    </section>
+
+    <section id="beilagen" class="menu-category">
+        <h2>Beilagen</h2>
+
+        <div class="menu-item"><span>Pommes-Frites</span><span class="price">3,49 €</span></div>
+
+        <div class="menu-item"><span>XL Pommes-Frites</span><span class="price">4,49 €</span></div>
+
+        <div class="menu-item"><span>Brötchen</span><span class="price">0,99 €</span></div>
+    </section>
+
+    <section id="dips" class="menu-category">
+        <h2>Dips</h2>
+
+        <div class="menu-item"><span>Ketchup / Curry Ketchup</span><span class="price">0,50 €</span></div>
+
+        <div class="menu-item"><span>Mayonnaise</span><span class="price">0,50 €</span></div>
+
+        <div class="menu-item"><span>BBQ Sauce</span><span class="price">0,50 €</span></div>
+
+        <div class="menu-item"><span>Süß Sauer Sauce</span><span class="price">0,50 €</span></div>
+
+        <div class="menu-item"><span>Chili Sauce</span><span class="price">0,50 €</span></div>
+
+        <div class="menu-item"><span>Knoblauchsoße (80ml)</span><span class="price">0,99 €</span></div>
+    </section>
+
+    <section id="salate" class="menu-category">
+        <h2>Salate</h2>
+
+        <div class="menu-item"><span>Coleslaw</span><span class="price">3,49 €</span></div>
+
+        <div class="menu-item"><span>Bohnensalat</span><span class="price">3,49 €</span></div>
+
+        <div class="menu-item"><span>Krautsalat</span><span class="price">3,49 €</span></div>
+
+        <div class="menu-item"><span>Nudelsalat</span><span class="price">3,49 €</span></div>
+
+        <div class="menu-item"><span>Gurkensalat</span><span class="price">3,49 €</span></div>
+
+        <div class="menu-item"><span>Kartoffelsalat</span><span class="price">3,49 €</span></div>
+
+        <div class="menu-item"><span>Zaziki</span><span class="price">3,49 €</span></div>
+    </section>
+
+    <section id="getraenke" class="menu-category">
+        <h2>Getränke</h2>
+
+        <div class="menu-item"><span>Eistee</span><span class="price">2,25 €</span></div>
+
+        <div class="menu-item"><span>Coca Cola 0,33 l</span><span class="price">2,25 €</span></div>
+
+        <div class="menu-item"><span>Coca Cola Zero 0,33 l</span><span class="price">2,25 €</span></div>
+
+        <div class="menu-item"><span>Fanta 0,33 l</span><span class="price">2,25 €</span></div>
+
+        <div class="menu-item"><span>Sprite 0,33 l</span><span class="price">2,25 €</span></div>
+
+        <div class="menu-item"><span>Mezzo Mix 0,33 l</span><span class="price">2,25 €</span></div>
+
+        <div class="menu-item"><span>Mineralwasser 0,5 l</span><span class="price">2,25 €</span></div>
+    </section>
+
+    <a href="index.html" class="btn btn-outline center-btn">Zurück zur Startseite</a>
+
+</main>
+
+<footer class="main-footer">
+    <div class="container footer-grid">
+        <p>© 2025 – Das Landhähnchenhaus</p>
+        <a href="impressum.html" class="footer-link">Impressum</a>
+    </div>
+</footer>
+
+</body>
+</html>
+
