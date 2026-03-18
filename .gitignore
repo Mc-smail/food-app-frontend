@@ -6,3 +6,5 @@ CMakeFiles/
 build.ninja
 cmake_install.cmake
 *.log
+.render_*
+*.temp*
