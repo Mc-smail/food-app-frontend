@@ -18,3 +18,17 @@ The project contains simple HTML, CSS and JavaScript pages for a landing page, m
 - Vanilla JavaScript
 
 No frontend framework or build step is required for local development.
+
+## Local Preview
+
+Open `index.html` directly in a browser or serve the folder with a small local server:
+
+```bash
+python3 -m http.server 8080
+```
+
+Then visit:
+
+```text
+http://localhost:8080
+```
