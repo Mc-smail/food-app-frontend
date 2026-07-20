@@ -10,3 +10,11 @@ The project contains simple HTML, CSS and JavaScript pages for a landing page, m
 - `speisekarte.html` — food and drink menu
 - `kontakt.html` — contact and opening hours
 - `impressum.html` — legal notice
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+No frontend framework or build step is required for local development.
