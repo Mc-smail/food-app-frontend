@@ -4,18 +4,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuBtn = document.querySelector(".menu-btn");
     const dropdown = document.querySelector(".dropdown-menu");
 
-    if (menuBtn) {
+    if (menuBtn && dropdown) {
         menuBtn.addEventListener("click", () => {
             dropdown.classList.toggle("show");
         });
-    }
 
-    /* Close dropdown when clicking outside */
-    document.addEventListener("click", (e) => {
-        if (!menuBtn.contains(e.target) && !dropdown.contains(e.target)) {
-            dropdown.classList.remove("show");
-        }
-    });
+        /* Close dropdown when clicking outside */
+        document.addEventListener("click", (e) => {
+            if (!menuBtn.contains(e.target) && !dropdown.contains(e.target)) {
+                dropdown.classList.remove("show");
+            }
+        });
+    }
 
 
     /* TABS IN SPEISEKARTE */
