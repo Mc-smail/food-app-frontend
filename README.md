@@ -32,3 +32,7 @@ Then visit:
 ```text
 http://localhost:8080
 ```
+
+## Navigation Behavior
+
+The hamburger button opens the dropdown navigation. On the menu page, category tabs switch between menu sections without a page reload.
