@@ -30,7 +30,10 @@ document.addEventListener("DOMContentLoaded", () => {
             categories.forEach(c => c.classList.remove("active"));
 
             tab.classList.add("active");
-            document.getElementById(target).classList.add("active");
+            const category = document.getElementById(target);
+            if (category) {
+                category.classList.add("active");
+            }
 
             window.scrollTo({ top: tab.offsetTop - 120, behavior: "smooth" });
         });
@@ -41,9 +44,10 @@ document.addEventListener("DOMContentLoaded", () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 tabs.forEach(tab => tab.classList.remove("active"));
-                document
-                    .querySelector(`.menu-tab[data-target="${entry.target.id}"]`)
-                    .classList.add("active");
+                const activeTab = document.querySelector(`.menu-tab[data-target="${entry.target.id}"]`);
+                if (activeTab) {
+                    activeTab.classList.add("active");
+                }
             }
         });
     }, { threshold: 0.4 });
