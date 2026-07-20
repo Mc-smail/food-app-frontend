@@ -1,0 +1,5 @@
+# Food App Frontend
+
+Static restaurant website for **Das Landhähnchenhaus**.
+
+The project contains simple HTML, CSS and JavaScript pages for a landing page, menu, contact details and legal notice.
