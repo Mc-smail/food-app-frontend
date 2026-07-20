@@ -46,3 +46,12 @@ Before publishing changes:
 3. Test menu category tabs.
 4. Check contact links.
 5. Confirm external map links open in a new tab.
+
+## Roadmap
+
+Possible improvements:
+
+- Add image optimization
+- Add responsive menu refinements
+- Add structured data for restaurant information
+- Add deployment instructions
