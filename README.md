@@ -36,3 +36,13 @@ http://localhost:8080
 ## Navigation Behavior
 
 The hamburger button opens the dropdown navigation. On the menu page, category tabs switch between menu sections without a page reload.
+
+## Maintenance Checklist
+
+Before publishing changes:
+
+1. Open all HTML pages locally.
+2. Test the dropdown navigation.
+3. Test menu category tabs.
+4. Check contact links.
+5. Confirm external map links open in a new tab.
